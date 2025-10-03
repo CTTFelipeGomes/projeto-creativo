@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #1e1e1e;
+    --bg-text: #fff;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .nav{
+        display: flex;
+        gap: 50px;
+
+        & .btn{
+            display: flex;
+            color:var(--bg-text);
+            background: var(--bg-color);
+            border-radius: 8px;
+            width: 183px;
+            padding: 49px;
+            font-size: 18px;
+            align-items: center;
+            
+        }
+    }
+}
